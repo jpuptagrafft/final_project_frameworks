@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% assign Location1 = "Main Street Camden Grounds/200 Kaliste Saloom, Lafayette, LA/Mon-Sat 6AM to 10PM/555-555-5001" | split '/' %}
+{% assign Location2 = "Central Street Camden Grounds/500 Canal Street, New Orleans, LA/Mon-Sat 6AM to 11PM/555-555-5211" | split '/' %}
+{% assign Location3 = "Axis Mall Camden Grounds/600 Congress Avenue, Austin, TX/Mon-Sat 5AM to 11PM/555-555-9821" | split '/' %}
+{% assign Location4 = "Houston Airport Camden Grounds/910 Louisiana Street, Houston, TX/Mon-Sat 6:30AM to 7PM/555-555-5800" | split '/' %}
+{% assign Location5 = "Northside Camden Grounds/3009 College Drive, Baton Rouge, LA/Mon-Sat 6AM to 10PM/555-555-5107" | split '/' %}
+div class="content">
+  <section class="hero">
+    <div class="small-container">
+      <h2>Locations</h2>
+    </div>
+  </section>
+  <div class="container">
+    <div class="columns spacing">
+      <div class="column half">
+        {% for i in Location1 %}
+            {% if forloop.first == true %}
+                <h3>{{i}}</h3>
+            {% else %}
+                <p>{{i}}<p>
+            {% endif %}
+        {% endfor %}
+      </div>
+      <div class="column half">
+        {% for i in Location2 %}
+            {% if forloop.first == true %}
+                <h3>{{i}}</h3>
+            {% else %}
+                <p>{{i}}<p>
+            {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="columns spacing">
+      <div class="column half">
+        {% for i in Location3 %}
+            {% if forloop.first == true %}
+                <h3>{{i}}</h3>
+            {% else %}
+                <p>{{i}}<p>
+            {% endif %}
+        {% endfor %}
+      </div>
+      <div class="column half">
+        {% for i in Location4 %}
+            {% if forloop.first == true %}
+                <h3>{{i}}</h3>
+            {% else %}
+                <p>{{i}}<p>
+            {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="columns spacing">
+      <div class="column half">
+        {% for i in Location5 %}
+            {% if forloop.first == true %}
+                <h3>{{i}}</h3>
+            {% else %}
+                <p>{{i}}<p>
+            {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
