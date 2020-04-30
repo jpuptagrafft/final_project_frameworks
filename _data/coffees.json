@@ -1,0 +1,44 @@
+{
+	"coffee1":{
+		"name":"Coffee One",
+		"url":"coffee1",
+		"price":2.99,
+		"image":"coffee1.jpg",
+		"short":"Creamy"
+	},
+	"coffee2":{
+		"name":"Coffee Two",
+		"url":"coffee2",
+		"price":9.99,
+		"image":"coffee2.jpg",
+		"short":"Rich"
+	},
+	"coffee3":{
+		"name":"Coffee Three",
+		"url":"coffee3",
+		"price":1.99,
+		"image":"coffee3.jpg",
+		"short":"Sweet"
+	},
+	"coffee4":{
+		"name":"Coffee Four",
+		"url":"coffee4",
+		"price":3.99,
+		"image":"coffee4.jpg",
+		"short":"Filling"
+	},
+	"coffee5":{
+		"name":"Coffee Five",
+		"url":"coffee5",
+		"price":2.99,
+		"image":"coffee5.jpg",
+		"short":"Delightful"
+	},
+	"coffee6":{
+		"name":"Coffee Six",
+		"url":"coffee6",
+		"price":4.99,
+		"image":"coffee6.jpg",
+		"short":"Weird"
+	}
+}

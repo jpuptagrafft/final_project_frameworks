@@ -1,0 +1,34 @@
+{
+    "locations":[
+        {
+            "Main Street Camden Grounds",
+            "200 Kaliste Saloom, Lafayette, LA",
+            "Mon-Sat 6AM to 10PM",
+            "555-555-5001"
+        },
+        {
+            "Central Street Camden Grounds",
+            "500 Canal Street, New Orleans, LA",
+            "Mon-Sat 6AM to 11PM",
+            "555-555-5211"
+        },
+        {
+            "Axis Mall Camden Grounds",
+            "600 Congress Avenue, Austin, TX",
+            "Mon-Sat 5AM to 11PM",
+            "555-555-9821"
+        },
+        {
+            "Houston Airport Camden Grounds",
+            "910 Louisiana Street, Houston, TX",
+            "Mon-Sat 6:30AM to 7PM",
+            "555-555-5800"
+        },
+        {
+            "Northside Camden Grounds",
+            "3009 College Drive, Baton Rouge, LA",
+            "Mon-Sat 6AM to 10PM",
+            "555-555-5107"
+        }
+    ]
+}
